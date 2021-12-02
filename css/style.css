@@ -135,3 +135,53 @@ body {
     width: 100%;
     border: solid 1px black;
 }
+
+.reg-wind {
+    width: 50%;
+    height: 30rem;
+    margin: 3rem auto;
+    background-color: #d8c2a6;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+#log_form {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+#log_form input[type="text"] {
+    display: inline-block;
+    border: solid 2px #899dbd;
+    width: 70%;
+    height: 3rem;
+    margin-left: 2rem;
+}
+#log_form>label {
+    margin: 2rem auto;
+    display: inline-block;
+font-size: 2rem;
+font-weight: 600;
+}
+
+#btnSubm {
+    width: 11rem;
+    height: 3rem;
+    font-size: 2.5rem;
+    background-color: #a1b9de;
+    border: solid 2px #899dbd;
+    text-align: center;
+    line-height: 3rem;
+    position: absolute;
+    right: 3rem;
+    bottom: 3rem;
+}

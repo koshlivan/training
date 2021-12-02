@@ -13,7 +13,7 @@
         <nav class="menu">
             <a href="#">Main Page</a>
             <a href="pages/edit.php">Edit</a>
-            <a href="#">Login</a>
+            <a href="pages/login.php">Login</a>
             <a href="#">Register</a>
             <a href="#">Logout</a>
         </nav>
