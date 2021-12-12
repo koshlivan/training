@@ -9,6 +9,7 @@ body {
     width: 70%;
     margin: auto;
     background-color: #ffffff;
+    min-height: 920px;
 }
 
 .menu {
@@ -41,10 +42,18 @@ body {
 .side-info {
     background-color: #d8c2a6;
     display: flex;
+    max-width: 25%;
     margin: 0 1rem;
     flex-direction: column;
     align-content: center;
 }
+
+.pr-photo {
+    width: 90%;
+    border-radius: 50%;
+    margin: 1rem auto;
+}
+
 .lblCont {
     background-color: #323026;
     width: 90%;
@@ -162,7 +171,7 @@ body {
 #log_form input[type="text"] {
     display: inline-block;
     border: solid 2px #899dbd;
-    width: 70%;
+    width: 50%;
     height: 3rem;
     margin-left: 2rem;
 }
@@ -184,4 +193,13 @@ font-weight: 600;
     position: absolute;
     right: 3rem;
     bottom: 3rem;
+}
+
+.ifWrong {
+    color: red;
+    font-weight: 600;
+}
+
+.hidden {
+    display: hidden;
 }
