@@ -1,10 +1,11 @@
 
         <div>
-        <form class="wraper">
+        <form class="wraper" method="POST" enctype="multipart/form-data">
             <div class="side-info">
-                <div class="for-photo">
+                <!-- <div class="for-photo">
                     <button id="ld_photo">File input here</button>
-                </div>
+                </div> -->
+                <input type="file" class="for-photo" placeholder="File input here" name="inpPhoto"></input>
                 <h3 class="lblCont">Contact</h3>
                 <input type="text" class="inp-edit" placeholder="Phone" name="inpPhone"></input>
                 <input type="text" class="inp-edit" placeholder="E-Mail" name="inpMail"></input>

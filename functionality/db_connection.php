@@ -7,11 +7,11 @@ $admin="root";
 $passw="";
 
 try{
-    global $connect=new PDO("mysql:host=$host; port=$port; dbname=$dbname", $admin, $passw);
+    global $connect=new PDO("mysql: host=$host; port=$port; dbname=$dbname", $admin, $passw);
     //echo "database connected";
 }
 catch (PDOException $e){
-    //echo "no connection because of ".$e->getMessage();
+    echo "no connection because of ".$e->getMessage();
 }
 
 
